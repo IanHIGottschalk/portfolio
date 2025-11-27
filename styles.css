@@ -1,6 +1,9 @@
-
 /* Reset */
-body, h1, h2, p, ul {
+body,
+h1,
+h2,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -21,25 +24,28 @@ header {
   background: linear-gradient(135deg, #1e3c72, #2a5298);
   color: #fff;
   border-radius: 0 0 20px 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
 header p {
   font-style: italic;
   color: #aaa;
 }
+
 nav {
   position: sticky;
   top: 0;
   background: #1e1e1e;
   padding: 10px 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 nav a {
   margin: 0 15px;
   color: #00e5ff;
@@ -51,6 +57,7 @@ nav a {
   color: #00bcd4;
   text-decoration: none;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -59,6 +66,17 @@ a:hover {
   color: #ff4081;
   transition: color 0.3s ease;
 }
+
+a[href^="mailto:"] {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a[href^="mailto:"]:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
 
 ul li:hover {
   background: #1f1f1f;
@@ -76,7 +94,7 @@ ul li:hover {
   background: #1e1e1e;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -96,6 +114,7 @@ ul li:hover {
   text-decoration: none;
   font-weight: 600;
 }
+
 .project-card a:hover {
   color: #ff4081;
 }
@@ -109,6 +128,7 @@ html {
 section {
   margin: 40px 0;
 }
+
 h2 {
   border-bottom: 2px solid #00bcd4;
   margin-bottom: 10px;
