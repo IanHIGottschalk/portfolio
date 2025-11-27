@@ -4,11 +4,11 @@ Hi there! I’m Ian — a hands-on developer and tech tinkerer who enjoys solvin
 
 ## Projects
 
-#Utils Lib
+# Utils Lib
   A lightweight Java utility library designed to simplify repetitive workflows
 
-#FunctionAndVectorGrapher
+# FunctionAndVectorGrapher
   A barebones visualizer for functions and vectors — inspired by tools like GeoGebra, but built from scratch for learning and experimentation.
 
-#Html and CSS
+# Html and CSS
   Currently getting into creating Websites such as the one i Hyperlinked 
