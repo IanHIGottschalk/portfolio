@@ -1,3 +1,3 @@
 # portfolio
 Personal IT portfolio
-ianhigottschalk.github.io/portfolio/
+[Visit my GitHub Portfolio](ianhigottschalk.github.io/portfolio/)
